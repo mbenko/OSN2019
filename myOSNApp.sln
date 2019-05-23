@@ -8,6 +8,9 @@ EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "myDeploy", "myDeploy\myDeploy.deployproj", "{BF1030FA-48EF-4822-8037-3828BE1155A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{CFCBDD4F-4C56-4759-94EA-096AF63AAC15}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
